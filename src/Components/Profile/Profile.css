@@ -1,0 +1,83 @@
+.profile{
+    height: 100vh;
+    color: white;
+}
+.profile_body{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 60%;
+}
+.profile_body>h1{
+    font-size: 60px;
+    font-weight:400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+.profile_info{
+    display: flex;
+}
+.profile_info>img{
+    height:100px;
+}
+.profile_details{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+}
+.profile_details>h2{
+    background-color: grey;
+    padding:15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.profile_plans{
+    margin-top: 20px;
+}
+.profile_plans>h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+.profile_plans_subscribe{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+.profile_plans_subscribe:hover{
+    opacity: 1;
+}
+.profile_plans_subscribe>button{
+    padding: 10px 20px;
+    font-size:1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight:600;
+    border: none;
+    cursor: pointer;
+}
+.profile_plans>p{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.profile_plans>p:hover{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.profile_signout{
+    padding:10px 20px;
+    font-size: 1rem;
+    font-weight:600;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color:#e50914;
+    border:none;
+    cursor: pointer;
+}
